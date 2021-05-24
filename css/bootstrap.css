@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10830,10 +10831,21 @@ textarea.form-control-lg {
 /*******************************************
 /*******************************************
 */
+
+.cabecalho{
+  background-color: #084298;
+}
+
+
 /*Corpo*/
 
+.img-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .corpo{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: auto;
   margin-right: auto;
   color: #2f3542;

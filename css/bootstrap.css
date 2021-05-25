@@ -10854,6 +10854,20 @@ textarea.form-control-lg {
   background-color: #08438f;
 }
 
+.textos{
+  text-align: center;
+  height: 150px;
+}
+.txt-inicio{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.txt-meio{
+  font-weight: 400;
+  margin-top: 30px;
+}
 
 /*Video*/
 .video{
@@ -10913,11 +10927,53 @@ textarea.form-control-lg {
   transition: all 400ms;
   color: #fff;
 }
+.link-site{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  background-color: #fcb900;
+  padding: 15px;
+  border-radius: 15px;
+
+}
+.link-site:hover{
+  background-color: #fcd600;
+  color: #fff;
+}
+.link-redes{
+  transform: translateY(-15px);
+  
+}
+
 
 @media(max-width:800px){
+  .img-logo{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .txt-inicio{
+    font-size: 15px;
+    text-align: center;
+    
+  }
   .link-arq{
     margin-left: auto;
   }
+  .video-mobile{
+    transform: translateY(-50px);
+  }
+  .txt-baixe{
+    transform: translateY(-50px);
+  }
+  .txt-meio{
+    transform: translateY(-30px);
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+  .arquivos{
+    transform: translate(5px,-30px);
+  }
+
 }
 
 .redes-sociais{
@@ -10950,18 +11006,5 @@ textarea.form-control-lg {
   transform: translateY(-15px);
   
 }
-.textos{
-  text-align: center;
-  height: 150px;
-}
-.txt-inicio{
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-}
-.txt-meio{
-  font-weight: 400;
-  margin-top: 30px;
-}
+
 /*# sourceMappingURL=bootstrap.css.map */

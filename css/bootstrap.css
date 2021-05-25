@@ -53,7 +53,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #08438f;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /*
@@ -10833,22 +10833,25 @@ textarea.form-control-lg {
 */
 
 .cabecalho{
-  background-color: #084298;
+  background-color: #08438f;
+  margin-top: 15px;
 }
 
 
 /*Corpo*/
-
+   
 .img-logo{
-    margin-left: auto;
-    margin-right: auto;
+  
+  margin-left: 5px;
+  margin-right: 5px;
 }
-
 .corpo{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   margin-left: auto;
   margin-right: auto;
-  color: #2f3542;
+  color: #fff;
+  background-color: #08438f;
 }
 
 
@@ -10885,24 +10888,38 @@ textarea.form-control-lg {
   margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
+  display: flex; 
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap:wrap;
 
 }
 .link-arq{
   text-decoration: none;
   color: #fff;
-  background-color: #ced6e0;
-  width: 200px;
+  background-color: #00a667;
+  width: 150px;
   height: 50px;
-  padding-top: 12px;
   border-radius: 15px;
+  padding-top: 13px;
   margin-left: 20px;
   margin-right: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .link-arq:hover{
-  background-color: #00a8ff;
+  background-color: #2ecc71;
   transition: all 400ms;
   color: #fff;
 }
+
+@media(max-width:800px){
+  .link-arq{
+    margin-left: auto;
+  }
+}
+
 .redes-sociais{
   display: block;
   position: relative;
@@ -10922,14 +10939,29 @@ textarea.form-control-lg {
 
 .txt-footer{
   text-align: center;
+  font-weight: 400;
 }
 .linha{
   width: 500px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  color: #2f3542;
+  color: #fff;
   transform: translateY(-15px);
+  
 }
-
+.textos{
+  text-align: center;
+  height: 150px;
+}
+.txt-inicio{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.txt-meio{
+  font-weight: 400;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=bootstrap.css.map */

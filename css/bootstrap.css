@@ -10841,7 +10841,6 @@ textarea.form-control-lg {
 /*Corpo*/
    
 .img-logo{
-  
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -10929,7 +10928,7 @@ textarea.form-control-lg {
 }
 .link-site{
   text-decoration: none;
-  color: #fff;
+  color: #08438f;
   font-weight: 600;
   background-color: #fcb900;
   padding: 15px;
@@ -10939,6 +10938,7 @@ textarea.form-control-lg {
 .link-site:hover{
   background-color: #fcd600;
   color: #fff;
+  transition: 400ms;
 }
 .link-redes{
   transform: translateY(-15px);

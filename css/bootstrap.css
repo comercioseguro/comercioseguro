@@ -11006,5 +11006,52 @@ textarea.form-control-lg {
   transform: translateY(-15px);
   
 }
+.duvidas{
+  text-align: center;
+
+
+}
+.txt-duvidas{
+  text-align: center;
+  font-weight: 400;
+}
+.link-duvidas{
+  text-decoration: none;
+  text-align: center;
+  color: #08438f;
+  background-color: #fcb900;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.link-duvidas:hover{
+  color: #fff;
+  background-color: #fcd600;
+  transition: 400ms;
+  
+}
+.link-whats{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-tel{
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.esp-link{
+  /*display: inline-flex;*/
+}
+
 
 /*# sourceMappingURL=bootstrap.css.map */
